@@ -10,7 +10,7 @@
 
 ## 📁 Project Structure
 
-automata_practical_exam_<your_id_number>/
+automata_practical_exam_<4549>/
 │
 ├── dfa_101.py # DFA implementation (substring '101')
 ├── test_dfa_101.py # Unit tests for DFA
