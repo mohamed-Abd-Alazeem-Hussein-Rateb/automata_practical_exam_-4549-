@@ -32,7 +32,7 @@ automata_practical_exam_<4549>/
 
 ### Step 1️⃣ – Open terminal and navigate to project folder:
 ```bash
-cd automata_practical_exam_<your_id_number>
+cd automata_practical_exam_<4549>
 ```
 --------------------------------------------------------
 
