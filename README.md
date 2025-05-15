@@ -9,6 +9,8 @@
 ------------------------------------------------
 
 ##  Package on PyPI
+
+![image](https://github.com/user-attachments/assets/6e1465db-1257-4880-b66f-c7e501df6a0b)
 -  [automata-practical-mohamedaz on PyPI](https://pypi.org/project/automata-practical-mohamedaz/)
 
 You can install it directly from PyPI:
