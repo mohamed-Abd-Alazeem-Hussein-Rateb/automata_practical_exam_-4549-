@@ -1,3 +1,13 @@
+Metadata-Version: 2.1
+Name: automata-practical-mohamedaz
+Version: 0.1
+Summary: Automata Practical Exam - DFA and Turing Machine
+Author: Mohamed Abd El-Azeem
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
 # Automata Practical Exam – Section 5
 
 ##  Student Info
@@ -6,18 +16,7 @@
   1. DFA that accepts binary strings containing the substring `101`  
   2. Turing Machine that recognizes binary numbers divisible by 3  
 
-------------------------------------------------
-
-##  Package on PyPI
--  [automata-practical-mohamedaz on PyPI](https://pypi.org/project/automata-practical-mohamedaz/)
-
-You can install it directly from PyPI:
-
-```bash
-pip install automata-practical-mohamedaz
-
-
--------------------------------------------------
+---
 
 ## Project Structure
 
