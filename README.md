@@ -39,11 +39,9 @@ automata_practical_exam_<4549>/
 
 -------------------------------------------------
 >>>Installation
-# from project root
-pip install -e .
-Installs the package in “editable” mode so you can modify code and see changes immediately.
 
 >>>Usage
+>> python
 1. Import and run the DFA
 from automata.dfa import DFA
 
