@@ -1,15 +1,15 @@
-# dfa_101.py
+# dfa.py
 
 class DFA:
     def __init__(self):
-        # تعريف الحالات
-        self.states = {"q0", "q1", "q2", "q3"}  # q3 هي حالة القبول
+        
+        self.states = {"q0", "q1", "q2", "q3"}  
         self.start_state = "q0"
         self.accept_states = {"q3"}
         self.current_state = self.start_state
 
     def transition(self, state, symbol):
-        # دالة الانتقال δ(state, symbol)
+        
         if state == "q0":
             if symbol == "1":
                 return "q1"
@@ -32,7 +32,7 @@ class DFA:
             # بمجرد الوصول لحالة القبول، نبقى فيها مهما كانت الرموز
             return "q3"
 
-        # حالة غير متوقعة (خطأ)
+        
         raise ValueError(f"Invalid state or symbol: {state}, {symbol}")
 
     def accepts(self, input_string):

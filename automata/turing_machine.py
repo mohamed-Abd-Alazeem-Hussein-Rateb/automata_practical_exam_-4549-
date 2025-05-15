@@ -1,4 +1,4 @@
-# tm_divisible_by_3.py
+
 
 class TuringMachine:
     def __init__(self, input_string):

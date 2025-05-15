@@ -1,6 +1,6 @@
 # test_tm_divisible_by_3.py
 
-from tm_divisible_by_3 import TuringMachine
+from automata.turing_machine import TuringMachine
 
 def test_tm_divisibility():
     assert TuringMachine("0").run() == True

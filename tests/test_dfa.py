@@ -1,6 +1,6 @@
-# test_dfa_101.py
+# test_dfa.py
 
-from dfa_101 import DFA
+from  automata.dfa import DFA 
 
 def test_dfa_accepts_101():
     dfa = DFA()

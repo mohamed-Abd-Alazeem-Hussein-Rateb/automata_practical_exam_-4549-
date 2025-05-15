@@ -1,0 +1,11 @@
+README.md
+setup.py
+automata/__init__.py
+automata/dfa.py
+automata/turing_machine.py
+automata111.egg-info/PKG-INFO
+automata111.egg-info/SOURCES.txt
+automata111.egg-info/dependency_links.txt
+automata111.egg-info/top_level.txt
+tests/test_dfa.py
+tests/test_turing_machine.py
