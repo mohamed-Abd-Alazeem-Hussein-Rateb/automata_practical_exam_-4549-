@@ -5,7 +5,7 @@ class TuringMachine:
         self.tape = list(input_string)
         self.head = 0
         self.state = 'q0'
-        self.accept_states = {'q0'}  # حالة القبول: باقي القسمة = 0
+        self.accept_states = {'q0'}  
 
     def step(self):
         if self.head >= len(self.tape):

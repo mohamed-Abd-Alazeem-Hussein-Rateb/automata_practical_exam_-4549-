@@ -29,14 +29,14 @@ class DFA:
                 return "q0"
 
         elif state == "q3":
-            # بمجرد الوصول لحالة القبول، نبقى فيها مهما كانت الرموز
+            
             return "q3"
 
         
         raise ValueError(f"Invalid state or symbol: {state}, {symbol}")
 
     def accepts(self, input_string):
-        # إعادة تعيين الحالة الحالية في كل محاولة
+        
         self.current_state = self.start_state
 
         for symbol in input_string:
